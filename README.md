@@ -3,4 +3,5 @@ A data engineering capstone project that explores the potential impact social me
 
 # Current Limitations:
 + Twitter API allows monthly 500,000 tweet usage. Either I will need to upgrade my developer access, or make use of other historical data sets (like Kaggle) that covers 2016-2019. This means the raw data being extracted may differ in quality and expectations, as my extracts may have different criteria. Another option is to restrict the tweets that I pull from only accounts that meet a set criteria.
++ Further Twitter API limitations currently only allow me to search tweets in the past 7 days and I am unable to pull the necessary fields. An example of the data that I need is from the kaggle dataset that I will be using.
 
