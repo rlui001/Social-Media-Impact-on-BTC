@@ -11,3 +11,4 @@ A data engineering capstone project that explores the potential impact social me
 + Identify workarounds to twitter API limitations, or upgrade access 
 + Update kaggle code to be more generic and pass in file names for downloads
 + Create functions for all three and combine into one file
++ Build coinmarketcap api requests for current/future bitcoin market data
