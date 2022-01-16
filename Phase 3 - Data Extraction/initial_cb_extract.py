@@ -36,11 +36,11 @@ def coinbase_historical_data(start, end, pair='BTC-USD', granularity='300'):
         if df.empty:
             raise ValueError('Failed to retrieve Coinbase data.\n')
         else:
-            print (df.head())
+            print (df.head(1))
             df.to_csv('results_cb.csv', mode='a', index=False, header=False)
 
             # update local dates for next iteration
             local_start_date += delta
     
 
-coinbase_historical_data('2021-01-01', '2021-01-04')
+coinbase_historical_data('2021-03-31', '2021-12-31')
